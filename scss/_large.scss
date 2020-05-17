@@ -1,0 +1,39 @@
+/*--------------MAIN------------*/
+body {
+  background-image: url(../images/sizing.jpg);
+}
+
+div#wrapper {
+  max-width: 80rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px #000000;
+  background-color: white;
+}
+
+// /*--------------MAIN------------*/
+// nav {
+//   ul {
+//     margin-left: $gutter;
+//     border-left: 1px solid rgba(0, 0, 0, 0.3);
+
+//     li {
+//       width: auto;
+
+//       a {
+//         padding: 0.5rem 1 rem;
+//       }
+//     }
+
+//     li:last-child {
+//       border-right: 1px solid rgba(0, 0, 0, 0.3);
+//     }
+//   }
+// } //end of nav
+
+/*--------------MAIN------------*/
+main {
+  figure.photo {
+    width: 25% - $gutterDbl;
+    float: left;
+  }
+} //end of main
